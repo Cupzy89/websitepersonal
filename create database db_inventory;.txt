@@ -1,0 +1,9 @@
+create database db_inventory;
+use db_inventory;
+create table tbl_barang(
+   id_tbl_barang int(11) not null primary key auto_increment,
+   subtance varchar(50),
+   id_roll varchar(360),
+   mill_roll_stand int(10),
+   quantity int(10)
+);
